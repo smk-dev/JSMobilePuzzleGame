@@ -15,4 +15,9 @@
 - (IBAction)newGameButtonAction:(id)sender;
 - (IBAction)solveButtonAction:(id)sender;
 
+- (IBAction)swipeLeftAction:(UISwipeGestureRecognizer *)sender;
+- (IBAction)swipeRightAction:(UISwipeGestureRecognizer *)sender;
+- (IBAction)swipeUpAction:(UISwipeGestureRecognizer *)sender;
+- (IBAction)swipeDownAction:(UISwipeGestureRecognizer *)sender;
+
 @end

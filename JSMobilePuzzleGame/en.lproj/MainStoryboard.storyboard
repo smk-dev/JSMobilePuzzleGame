@@ -39,6 +39,13 @@
                                 <rect key="frame" x="0.0" y="44" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="g6a-0C-anH" appends="YES" id="WSd-qG-hOr"/>
+                                    <outletCollection property="gestureRecognizers" destination="Ulg-Aw-4oL" appends="YES" id="aFH-qK-HFF"/>
+                                    <outletCollection property="gestureRecognizers" destination="H4z-3J-63I" appends="YES" id="inW-G2-WKc"/>
+                                    <outletCollection property="gestureRecognizers" destination="sHE-nl-QDy" appends="YES" id="b0K-4N-IKB"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -48,24 +55,28 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="g6a-0C-anH" userLabel="Swipe Left">
+                <swipeGestureRecognizer direction="left" id="g6a-0C-anH" userLabel="Swipe Left">
                     <connections>
-                        <outlet property="delegate" destination="X8L-2t-Ta2" id="8wk-US-n7P"/>
+                        <action selector="swipeLeftAction:" destination="2" id="Xe3-sc-fUJ"/>
+                        <outlet property="delegate" destination="2" id="gZU-nB-YCK"/>
                     </connections>
                 </swipeGestureRecognizer>
                 <swipeGestureRecognizer direction="right" id="Ulg-Aw-4oL" userLabel="Swipe Right">
                     <connections>
-                        <outlet property="delegate" destination="X8L-2t-Ta2" id="Uew-Ox-Y1l"/>
+                        <action selector="swipeRightAction:" destination="2" id="n7T-f3-9cv"/>
+                        <outlet property="delegate" destination="2" id="2Gv-Lr-57g"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="H4z-3J-63I" userLabel="Swipe Up">
+                <swipeGestureRecognizer direction="up" id="H4z-3J-63I" userLabel="Swipe Up">
                     <connections>
-                        <outlet property="delegate" destination="X8L-2t-Ta2" id="HGF-tv-Iaf"/>
+                        <action selector="swipeUpAction:" destination="2" id="Mvt-tC-AhN"/>
+                        <outlet property="delegate" destination="2" id="8yd-78-qBg"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="sHE-nl-QDy" userLabel="Swipe Down">
+                <swipeGestureRecognizer direction="down" id="sHE-nl-QDy" userLabel="Swipe Down">
                     <connections>
-                        <outlet property="delegate" destination="X8L-2t-Ta2" id="8mB-GL-P4V"/>
+                        <action selector="swipeDownAction:" destination="2" id="PRL-XH-ZRi"/>
+                        <outlet property="delegate" destination="2" id="872-Kk-cgj"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>

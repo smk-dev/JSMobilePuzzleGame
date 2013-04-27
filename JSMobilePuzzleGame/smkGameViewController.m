@@ -42,4 +42,30 @@
 
 #pragma mark - Gestures
 
+- (IBAction)swipeLeftAction:(UISwipeGestureRecognizer *)sender {
+    [self.gameWebView stringByEvaluatingJavaScriptFromString:@"swipeLeft();"];
+    [self checkGameFinish];
+}
+
+- (IBAction)swipeRightAction:(UISwipeGestureRecognizer *)sender {
+    [self.gameWebView stringByEvaluatingJavaScriptFromString:@"swipeRight();"];
+    [self checkGameFinish];
+}
+
+- (IBAction)swipeUpAction:(UISwipeGestureRecognizer *)sender {
+    [self.gameWebView stringByEvaluatingJavaScriptFromString:@"swipeUp();"];
+    [self checkGameFinish];
+}
+
+- (IBAction)swipeDownAction:(UISwipeGestureRecognizer *)sender {
+    [self.gameWebView stringByEvaluatingJavaScriptFromString:@"swipeDown();"];
+    [self checkGameFinish];
+}
+
+#pragma mark - Private methods
+
+- (void)checkGameFinish {
+    
+}
+
 @end
