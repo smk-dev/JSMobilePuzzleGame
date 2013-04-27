@@ -10,17 +10,17 @@
 		9E0C28631729BD900096157A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0C28621729BD900096157A /* UIKit.framework */; };
 		9E0C28651729BD900096157A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0C28641729BD900096157A /* Foundation.framework */; };
 		9E0C28671729BD900096157A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0C28661729BD900096157A /* CoreGraphics.framework */; };
-		9E0C286D1729BD900096157A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E0C286B1729BD900096157A /* InfoPlist.strings */; };
-		9E0C286F1729BD900096157A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0C286E1729BD900096157A /* main.m */; };
-		9E0C28731729BD900096157A /* smkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0C28721729BD900096157A /* smkAppDelegate.m */; };
-		9E0C287C1729BD900096157A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0C287A1729BD900096157A /* MainStoryboard.storyboard */; };
-		9E0C287F1729BD900096157A /* smkGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0C287E1729BD900096157A /* smkGameViewController.m */; };
+		9E9C4F3D172C365D006694B2 /* smkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C4F3A172C365D006694B2 /* smkAppDelegate.m */; };
+		9E9C4F3E172C365D006694B2 /* smkGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C4F3C172C365D006694B2 /* smkGameViewController.m */; };
 		9EB7358E172C05DE008BF36D /* www in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7358D172C05DE008BF36D /* www */; };
 		9EB73593172C26FA008BF36D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB73590172C26FA008BF36D /* Default-568h@2x.png */; };
 		9EB73594172C26FA008BF36D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB73591172C26FA008BF36D /* Default.png */; };
 		9EB73595172C26FA008BF36D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB73592172C26FA008BF36D /* Default@2x.png */; };
 		9EB7359C172C349F008BF36D /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7359A172C349F008BF36D /* app_icon.png */; };
 		9EB7359D172C349F008BF36D /* app_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7359B172C349F008BF36D /* app_icon@2x.png */; };
+		9EB735A3172C3533008BF36D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7359F172C3533008BF36D /* InfoPlist.strings */; };
+		9EB735A4172C3533008BF36D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB735A1172C3533008BF36D /* MainStoryboard.storyboard */; };
+		9EB735A9172C3549008BF36D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB735A7172C3549008BF36D /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,21 +28,21 @@
 		9E0C28621729BD900096157A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9E0C28641729BD900096157A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9E0C28661729BD900096157A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9E0C286A1729BD900096157A /* JSMobilePuzzleGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSMobilePuzzleGame-Info.plist"; sourceTree = "<group>"; };
-		9E0C286C1729BD900096157A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9E0C286E1729BD900096157A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9E0C28701729BD900096157A /* JSMobilePuzzleGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSMobilePuzzleGame-Prefix.pch"; sourceTree = "<group>"; };
-		9E0C28711729BD900096157A /* smkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smkAppDelegate.h; sourceTree = "<group>"; };
-		9E0C28721729BD900096157A /* smkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = smkAppDelegate.m; sourceTree = "<group>"; };
-		9E0C287B1729BD900096157A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		9E0C287D1729BD900096157A /* smkGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smkGameViewController.h; sourceTree = "<group>"; };
-		9E0C287E1729BD900096157A /* smkGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = smkGameViewController.m; sourceTree = "<group>"; };
+		9E9C4F39172C365D006694B2 /* smkAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = smkAppDelegate.h; path = Classes/smkAppDelegate.h; sourceTree = "<group>"; };
+		9E9C4F3A172C365D006694B2 /* smkAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = smkAppDelegate.m; path = Classes/smkAppDelegate.m; sourceTree = "<group>"; };
+		9E9C4F3B172C365D006694B2 /* smkGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = smkGameViewController.h; path = Classes/smkGameViewController.h; sourceTree = "<group>"; };
+		9E9C4F3C172C365D006694B2 /* smkGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = smkGameViewController.m; path = Classes/smkGameViewController.m; sourceTree = "<group>"; };
 		9EB7358D172C05DE008BF36D /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		9EB73590172C26FA008BF36D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
 		9EB73591172C26FA008BF36D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
 		9EB73592172C26FA008BF36D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
 		9EB7359A172C349F008BF36D /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = app_icon.png; path = Resources/app_icon.png; sourceTree = "<group>"; };
 		9EB7359B172C349F008BF36D /* app_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app_icon@2x.png"; path = "Resources/app_icon@2x.png"; sourceTree = "<group>"; };
+		9EB735A0172C3533008BF36D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "Supporting Files/en.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		9EB735A2172C3533008BF36D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "Supporting Files/en.lproj/MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		9EB735A5172C3549008BF36D /* JSMobilePuzzleGame-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "JSMobilePuzzleGame-Info.plist"; path = "Supporting Files/JSMobilePuzzleGame-Info.plist"; sourceTree = "<group>"; };
+		9EB735A6172C3549008BF36D /* JSMobilePuzzleGame-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JSMobilePuzzleGame-Prefix.pch"; path = "Supporting Files/JSMobilePuzzleGame-Prefix.pch"; sourceTree = "<group>"; };
+		9EB735A7172C3549008BF36D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,13 +89,9 @@
 		9E0C28681729BD900096157A /* JSMobilePuzzleGame */ = {
 			isa = PBXGroup;
 			children = (
+				9E9C4F38172C3647006694B2 /* Classes */,
 				9EB7358F172C26EE008BF36D /* Resources */,
 				9EB7358D172C05DE008BF36D /* www */,
-				9E0C28711729BD900096157A /* smkAppDelegate.h */,
-				9E0C28721729BD900096157A /* smkAppDelegate.m */,
-				9E0C287A1729BD900096157A /* MainStoryboard.storyboard */,
-				9E0C287D1729BD900096157A /* smkGameViewController.h */,
-				9E0C287E1729BD900096157A /* smkGameViewController.m */,
 				9E0C28691729BD900096157A /* Supporting Files */,
 			);
 			path = JSMobilePuzzleGame;
@@ -104,12 +100,23 @@
 		9E0C28691729BD900096157A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9E0C286A1729BD900096157A /* JSMobilePuzzleGame-Info.plist */,
-				9E0C286B1729BD900096157A /* InfoPlist.strings */,
-				9E0C286E1729BD900096157A /* main.m */,
-				9E0C28701729BD900096157A /* JSMobilePuzzleGame-Prefix.pch */,
+				9EB7359E172C3500008BF36D /* en */,
+				9EB735A5172C3549008BF36D /* JSMobilePuzzleGame-Info.plist */,
+				9EB735A6172C3549008BF36D /* JSMobilePuzzleGame-Prefix.pch */,
+				9EB735A7172C3549008BF36D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E9C4F38172C3647006694B2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9E9C4F39172C365D006694B2 /* smkAppDelegate.h */,
+				9E9C4F3A172C365D006694B2 /* smkAppDelegate.m */,
+				9E9C4F3B172C365D006694B2 /* smkGameViewController.h */,
+				9E9C4F3C172C365D006694B2 /* smkGameViewController.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 		9EB7358F172C26EE008BF36D /* Resources */ = {
@@ -122,6 +129,15 @@
 				9EB73592172C26FA008BF36D /* Default@2x.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		9EB7359E172C3500008BF36D /* en */ = {
+			isa = PBXGroup;
+			children = (
+				9EB7359F172C3533008BF36D /* InfoPlist.strings */,
+				9EB735A1172C3533008BF36D /* MainStoryboard.storyboard */,
+			);
+			name = en;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,14 +192,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E0C286D1729BD900096157A /* InfoPlist.strings in Resources */,
-				9E0C287C1729BD900096157A /* MainStoryboard.storyboard in Resources */,
 				9EB7358E172C05DE008BF36D /* www in Resources */,
 				9EB73593172C26FA008BF36D /* Default-568h@2x.png in Resources */,
 				9EB73594172C26FA008BF36D /* Default.png in Resources */,
 				9EB73595172C26FA008BF36D /* Default@2x.png in Resources */,
 				9EB7359C172C349F008BF36D /* app_icon.png in Resources */,
 				9EB7359D172C349F008BF36D /* app_icon@2x.png in Resources */,
+				9EB735A3172C3533008BF36D /* InfoPlist.strings in Resources */,
+				9EB735A4172C3533008BF36D /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,27 +210,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E0C286F1729BD900096157A /* main.m in Sources */,
-				9E0C28731729BD900096157A /* smkAppDelegate.m in Sources */,
-				9E0C287F1729BD900096157A /* smkGameViewController.m in Sources */,
+				9EB735A9172C3549008BF36D /* main.m in Sources */,
+				9E9C4F3D172C365D006694B2 /* smkAppDelegate.m in Sources */,
+				9E9C4F3E172C365D006694B2 /* smkGameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9E0C286B1729BD900096157A /* InfoPlist.strings */ = {
+		9EB7359F172C3533008BF36D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9E0C286C1729BD900096157A /* en */,
+				9EB735A0172C3533008BF36D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		9E0C287A1729BD900096157A /* MainStoryboard.storyboard */ = {
+		9EB735A1172C3533008BF36D /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9E0C287B1729BD900096157A /* en */,
+				9EB735A2172C3533008BF36D /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -282,8 +298,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JSMobilePuzzleGame/JSMobilePuzzleGame-Prefix.pch";
-				INFOPLIST_FILE = "JSMobilePuzzleGame/JSMobilePuzzleGame-Info.plist";
+				GCC_PREFIX_HEADER = "JSMobilePuzzleGame/Supporting Files/JSMobilePuzzleGame-Prefix.pch";
+				INFOPLIST_FILE = "JSMobilePuzzleGame/Supporting Files/JSMobilePuzzleGame-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -293,8 +309,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JSMobilePuzzleGame/JSMobilePuzzleGame-Prefix.pch";
-				INFOPLIST_FILE = "JSMobilePuzzleGame/JSMobilePuzzleGame-Info.plist";
+				GCC_PREFIX_HEADER = "JSMobilePuzzleGame/Supporting Files/JSMobilePuzzleGame-Prefix.pch";
+				INFOPLIST_FILE = "JSMobilePuzzleGame/Supporting Files/JSMobilePuzzleGame-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
