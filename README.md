@@ -2,7 +2,7 @@
 JSMobilePuzzleGame
 =
 
-Project shows how to integrate native iOS app with JavaScript game.
+Project shows how to integrate native iOS app with JavaScript game. Swipe gestures are recognized by UIKit and translated to Javascript functions.
 
 Picture
 -
