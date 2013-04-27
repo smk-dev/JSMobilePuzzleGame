@@ -11,6 +11,7 @@
 @interface smkGameViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIWebView *gameWebView;
+@property (weak, nonatomic) IBOutlet UIView *gestureView;
 
 - (IBAction)newGameButtonAction:(id)sender;
 - (IBAction)solveButtonAction:(id)sender;

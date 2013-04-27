@@ -52,6 +52,7 @@
                     </view>
                     <connections>
                         <outlet property="gameWebView" destination="9MD-vC-MrB" id="thL-8R-byb"/>
+                        <outlet property="gestureView" destination="X8L-2t-Ta2" id="BH8-KX-ZKg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>

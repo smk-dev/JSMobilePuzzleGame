@@ -25,8 +25,6 @@ function newGame() {
 		pos[j] = temp;
 	}
 	
-	//pos[14] = 15;pos[15] = 14;
-	
 	// move
 	for (var i = 0; i < slides_count; i++) {
 		var id = pos[i];
@@ -54,14 +52,14 @@ function solve() {
 function isFinish() {
 	for (var i = 0; i < slides_count; i++) {
 		if (i != pos[i]) {
-			return false;
+			return "0";
 		}
 	}
 	
 	// show
 	$("#s" + (slides_count - 1)).removeClass("white");
 	
-	return true;
+	return "1";
 }
 
 function swipeLeft() {
