@@ -16,22 +16,58 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <items>
-                                    <barButtonItem title="New game" id="0QJ-fz-NRG"/>
+                                    <barButtonItem title="New game" id="0QJ-fz-NRG">
+                                        <connections>
+                                            <action selector="newGameButtonAction:" destination="2" id="Uw8-zI-taQ"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="3O2-m9-DuK"/>
-                                    <barButtonItem title="Solve" id="jCA-4N-goj"/>
+                                    <barButtonItem title="Solve" id="jCA-4N-goj">
+                                        <connections>
+                                            <action selector="solveButtonAction:" destination="2" id="lgJ-oT-7sb"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
-                            <webView contentMode="scaleToFill" id="9MD-vC-MrB">
+                            <webView userInteractionEnabled="NO" contentMode="scaleToFill" id="9MD-vC-MrB">
                                 <rect key="frame" x="0.0" y="44" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <dataDetectorType key="dataDetectorTypes"/>
                             </webView>
+                            <view contentMode="scaleToFill" id="X8L-2t-Ta2" userLabel="Gesture View">
+                                <rect key="frame" x="0.0" y="44" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="gameWebView" destination="9MD-vC-MrB" id="thL-8R-byb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="g6a-0C-anH" userLabel="Swipe Left">
+                    <connections>
+                        <outlet property="delegate" destination="X8L-2t-Ta2" id="8wk-US-n7P"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="Ulg-Aw-4oL" userLabel="Swipe Right">
+                    <connections>
+                        <outlet property="delegate" destination="X8L-2t-Ta2" id="Uew-Ox-Y1l"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="H4z-3J-63I" userLabel="Swipe Up">
+                    <connections>
+                        <outlet property="delegate" destination="X8L-2t-Ta2" id="HGF-tv-Iaf"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="sHE-nl-QDy" userLabel="Swipe Down">
+                    <connections>
+                        <outlet property="delegate" destination="X8L-2t-Ta2" id="8mB-GL-P4V"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
         </scene>
     </scenes>

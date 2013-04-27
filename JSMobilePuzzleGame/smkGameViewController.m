@@ -2,28 +2,44 @@
 //  smkViewController.m
 //  JSMobilePuzzleGame
 //
-//  Created by Seba on 25.04.2013.
+//  Created by smk-dev on 25.04.2013.
 //  Copyright (c) 2013 smk-dev. All rights reserved.
 //
 
 #import "smkGameViewController.h"
 
-@interface smkGameViewController ()
-
-@end
-
 @implementation smkGameViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+@synthesize gameWebView = _gameWebView;
+
+#pragma mark - Lifecycle
+
+- (void)viewDidLoad {
+    
+    // set up game
+    NSString *gameDirName = @"www";
+    NSString *indexHtmlPath = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html" inDirectory:gameDirName];
+    NSString *indexHtml = [NSString stringWithContentsOfFile:indexHtmlPath encoding:NSUTF8StringEncoding error:nil];
+    NSURL *gameDirectory = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:gameDirName ofType:nil]];
+    
+    // load index.html
+    [self.gameWebView loadHTMLString:indexHtml baseURL:gameDirectory];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)dealloc {
+    _gameWebView = nil;
 }
+
+#pragma mark - Actions
+
+- (IBAction)newGameButtonAction:(id)sender {
+    [self.gameWebView stringByEvaluatingJavaScriptFromString:@"newGame();"];
+}
+
+- (IBAction)solveButtonAction:(id)sender {
+    [self.gameWebView stringByEvaluatingJavaScriptFromString:@"solve();"];
+}
+
+#pragma mark - Gestures
 
 @end

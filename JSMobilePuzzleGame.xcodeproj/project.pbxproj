@@ -18,10 +18,7 @@
 		9E0C28791729BD900096157A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E0C28781729BD900096157A /* Default-568h@2x.png */; };
 		9E0C287C1729BD900096157A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0C287A1729BD900096157A /* MainStoryboard.storyboard */; };
 		9E0C287F1729BD900096157A /* smkGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0C287E1729BD900096157A /* smkGameViewController.m */; };
-		9E0C288A1729C0F30096157A /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 9E0C28861729C0F30096157A /* index.html */; };
-		9E0C288B1729C0F30096157A /* jquery-2.0.0.min.js in Sources */ = {isa = PBXBuildFile; fileRef = 9E0C28871729C0F30096157A /* jquery-2.0.0.min.js */; };
-		9E0C288C1729C0F30096157A /* koala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E0C28881729C0F30096157A /* koala.jpg */; };
-		9E0C288D1729C0F30096157A /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 9E0C28891729C0F30096157A /* main.css */; };
+		9EB7358E172C05DE008BF36D /* www in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7358D172C05DE008BF36D /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,10 +38,7 @@
 		9E0C287B1729BD900096157A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		9E0C287D1729BD900096157A /* smkGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smkGameViewController.h; sourceTree = "<group>"; };
 		9E0C287E1729BD900096157A /* smkGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = smkGameViewController.m; sourceTree = "<group>"; };
-		9E0C28861729C0F30096157A /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = www/index.html; sourceTree = "<group>"; };
-		9E0C28871729C0F30096157A /* jquery-2.0.0.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "jquery-2.0.0.min.js"; path = "www/jquery-2.0.0.min.js"; sourceTree = "<group>"; };
-		9E0C28881729C0F30096157A /* koala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = koala.jpg; path = www/koala.jpg; sourceTree = "<group>"; };
-		9E0C28891729C0F30096157A /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = main.css; path = www/main.css; sourceTree = "<group>"; };
+		9EB7358D172C05DE008BF36D /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +85,7 @@
 		9E0C28681729BD900096157A /* JSMobilePuzzleGame */ = {
 			isa = PBXGroup;
 			children = (
-				9E0C28851729C0E80096157A /* www */,
+				9EB7358D172C05DE008BF36D /* www */,
 				9E0C28711729BD900096157A /* smkAppDelegate.h */,
 				9E0C28721729BD900096157A /* smkAppDelegate.m */,
 				9E0C287A1729BD900096157A /* MainStoryboard.storyboard */,
@@ -114,17 +108,6 @@
 				9E0C28781729BD900096157A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9E0C28851729C0E80096157A /* www */ = {
-			isa = PBXGroup;
-			children = (
-				9E0C28861729C0F30096157A /* index.html */,
-				9E0C28871729C0F30096157A /* jquery-2.0.0.min.js */,
-				9E0C28881729C0F30096157A /* koala.jpg */,
-				9E0C28891729C0F30096157A /* main.css */,
-			);
-			name = www;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,9 +167,7 @@
 				9E0C28771729BD900096157A /* Default@2x.png in Resources */,
 				9E0C28791729BD900096157A /* Default-568h@2x.png in Resources */,
 				9E0C287C1729BD900096157A /* MainStoryboard.storyboard in Resources */,
-				9E0C288A1729C0F30096157A /* index.html in Resources */,
-				9E0C288C1729C0F30096157A /* koala.jpg in Resources */,
-				9E0C288D1729C0F30096157A /* main.css in Resources */,
+				9EB7358E172C05DE008BF36D /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +181,6 @@
 				9E0C286F1729BD900096157A /* main.m in Sources */,
 				9E0C28731729BD900096157A /* smkAppDelegate.m in Sources */,
 				9E0C287F1729BD900096157A /* smkGameViewController.m in Sources */,
-				9E0C288B1729C0F30096157A /* jquery-2.0.0.min.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +303,7 @@
 				9E0C28841729BD900096157A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

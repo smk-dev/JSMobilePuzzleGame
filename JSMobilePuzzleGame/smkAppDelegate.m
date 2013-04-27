@@ -2,7 +2,7 @@
 //  smkAppDelegate.m
 //  JSMobilePuzzleGame
 //
-//  Created by Seba on 25.04.2013.
+//  Created by smk-dev on 25.04.2013.
 //  Copyright (c) 2013 smk-dev. All rights reserved.
 //
 
